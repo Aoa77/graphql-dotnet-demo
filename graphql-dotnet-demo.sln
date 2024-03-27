@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "graphql.demo.app", "src\graphql.demo.app\graphql.demo.app.csproj", "{D6D03CA1-0DA1-4757-8598-061E4867BC5D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6D03CA1-0DA1-4757-8598-061E4867BC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D03CA1-0DA1-4757-8598-061E4867BC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D03CA1-0DA1-4757-8598-061E4867BC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D03CA1-0DA1-4757-8598-061E4867BC5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
