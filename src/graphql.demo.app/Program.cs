@@ -9,9 +9,9 @@ internal static class Program
 {
     private static async Task Main(string[] args)
     {
-        Console.WriteLine("===========================");
-        Console.WriteLine(Console.Title = "= GraphQL Dotnet Demo App =");
-        Console.WriteLine("===========================");
+        Console.WriteLine("==================================");
+        Console.WriteLine(Console.Title = " == GraphQL .NET Core Demo App ==");
+        Console.WriteLine("==================================");
         Console.WriteLine();
 
         var schema = Schema.For(@"
@@ -33,7 +33,7 @@ internal static class Program
         Console.WriteLine($@"Result: {data!.Result}");
 
         Console.WriteLine();
-        Console.WriteLine("===========================");
+        Console.WriteLine("==================================");
         Console.WriteLine("press any key to exit...");
         Console.ReadKey();
     }
